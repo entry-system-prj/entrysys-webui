@@ -1,4 +1,4 @@
-# entysys-webui
+# entrysys-webui
 
 ## Project setup
 ```

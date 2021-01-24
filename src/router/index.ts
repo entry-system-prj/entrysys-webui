@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter, { RouteConfig } from "vue-router";
 import Home from "../views/Home.vue";
 import Regist from "../views/Regist.vue";
+import List from "../views/List.vue";
 
 Vue.use(VueRouter);
 
@@ -24,6 +25,11 @@ const routes: Array<RouteConfig> = [
     path: "/regist",
     name: "Regist",
     component: Regist
+  },
+  {
+    path: "/list",
+    name: "List",
+    component: List
   }
 ];
 

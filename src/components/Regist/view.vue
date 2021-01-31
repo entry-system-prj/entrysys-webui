@@ -30,6 +30,7 @@
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 import { rules } from "@/utils/rules";
+import ky from "ky";
 
 @Component
 export default class Regist extends Vue {
@@ -50,6 +51,11 @@ export default class Regist extends Vue {
   submit() {
     console.log("submit");
     (this.$refs.form as any).validate();
+  }
+
+  async created() {
+    const response = await ky.get("http://localhost:3000/posts").json();
+    console.log(response);
   }
 }
 </script>

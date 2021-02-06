@@ -54,7 +54,7 @@ export default class Regist extends Vue {
   }
 
   async created() {
-    const response = await ky.get("http://localhost:3000/posts").json();
+    const response = await ky.get("/api/posts").json();
     console.log(response);
   }
 }

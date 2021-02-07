@@ -3,6 +3,7 @@ import VueRouter, { RouteConfig } from "vue-router";
 import Home from "../views/Home.vue";
 import Regist from "../views/Regist.vue";
 import List from "../views/List.vue";
+import Settings from "../views/Settings.vue";
 
 Vue.use(VueRouter);
 
@@ -30,6 +31,11 @@ const routes: Array<RouteConfig> = [
     path: "/list",
     name: "List",
     component: List
+  },
+  {
+    path: "/account/settings",
+    name: "Settings",
+    component: Settings
   }
 ];
 

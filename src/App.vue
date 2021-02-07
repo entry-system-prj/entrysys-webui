@@ -37,6 +37,10 @@ export default class App extends Vue {
     {
       to: "/list",
       text: "登録者一覧"
+    },
+    {
+      to: "/account/settings",
+      text: "マイページ"
     }
   ];
 }

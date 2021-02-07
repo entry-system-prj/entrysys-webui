@@ -1,9 +1,30 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "users": [
+    {
+      "id": "a96e36db-b260-ce9e-6d16-d7a3ccc21e7c",
+      "name": "Jhon Doe",
+      "clubID": "668c39da-0aee-28e8-fffe-93d6346baf89"
+    },
+    {
+      "id": "81190c97-864f-a31c-1dba-2b244f5bbadc",
+      "name": "Jane Smith",
+      "clubID": "668c39da-0aee-28e8-fffe-93d6346baf89"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "clubs": [
+    {
+      "id": "668c39da-0aee-28e8-fffe-93d6346baf89",
+      "name": "club A"
+    }
   ],
-  "profile": { "name": "typicode" }
+  "account": {
+    "settings": {
+        "id": "a96e36db-b260-ce9e-6d16-d7a3ccc21e7c",
+        "name": "Jhon Doe",
+        "email": "email@example.com",
+        "password": "p******d",
+        "partnerID": "81190c97-864f-a31c-1dba-2b244f5bbadc",
+        "clubID": "668c39da-0aee-28e8-fffe-93d6346baf89"
+      }
+    }
 }

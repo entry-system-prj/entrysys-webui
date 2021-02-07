@@ -1,5 +1,9 @@
 # entrysys-webui
 
+## Requirements
+- Node.js
+- yarn
+
 ## Project setup
 ```
 yarn install
@@ -8,6 +12,9 @@ yarn install
 ### Compiles and hot-reloads for development
 ```
 yarn serve
+```
+```
+yarn mock:serve
 ```
 
 ### Compiles and minifies for production
